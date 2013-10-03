@@ -1,0 +1,11 @@
+{
+  "name": "ilnurkhalilov.ru",
+  "title": "Ilnur Khalilov",
+  "description": "Ilnur Khalilov personal site.",
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jade": "~0.8.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-stylus": "~0.8.0"
+  }
+}
