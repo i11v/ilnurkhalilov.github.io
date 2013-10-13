@@ -3,7 +3,6 @@
 .LSOverride
 Icon
 
-
 # Thumbnails
 ._*
 
@@ -11,7 +10,8 @@ Icon
 .Spotlight-V100
 .Trashes
 
-# Sublime project files
+# IDE files
+.idea
 *.sublime-project
 *.sublime-workspace
 

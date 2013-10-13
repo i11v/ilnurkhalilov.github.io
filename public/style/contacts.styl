@@ -1,0 +1,37 @@
+/**
+ * Contacts
+ */
+
+.contacts
+  margin-bottom 3%
+
+.contact
+  &-label
+    inline-block()
+    width 14%
+    padding-right 1%
+    text-align right
+
+    &-text
+      font 400 italic 1em/200% $altFontFamily
+      color $altColor
+
+  &-data
+    inline-block()
+
+    &-text
+      font 400 1em/200% $baseFontFamily
+
+    &-link
+      font 400 1em/200% $baseFontFamily
+      text-decoration underline
+      color $linkColor
+
+      &:hover
+      &:active
+      &:focus
+        color $linkAltColor
+
+@media (max-width: 1024px)
+  .contact-label-text
+    display: none
