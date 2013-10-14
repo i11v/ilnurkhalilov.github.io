@@ -1,0 +1,18 @@
+/**
+ * Content
+ */
+
+.content
+  @extend .container
+
+  &-text
+    font 400 1em $baseFontFamily
+    color $baseColor
+
+  &-link
+    color $linkColor
+
+    &:hover
+    &:active
+    &:focus
+      color: $linkAltColor
