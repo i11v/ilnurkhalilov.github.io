@@ -1,8 +1,6 @@
 module.exports = function (grunt) {
   "use strict";
 
-  var content = grunt.file.readJSON("content.json");
-
   grunt.initConfig({
     meta: {
       now: Date.now()
@@ -10,8 +8,7 @@ module.exports = function (grunt) {
     jade: {
       debug: {
         options: {
-          debug: true,
-          data: content
+          debug: true
         },
         files: [{
           expand: true,
@@ -24,7 +21,9 @@ module.exports = function (grunt) {
       release: {
         options: {
           debug: false,
-          data: content
+          data: {
+            commit: grunt.option("commit")
+          }
         },
         files: [{
           expand: true,
