@@ -8,6 +8,7 @@ html(lang="ru")
     link(rel="stylesheet", type="text/css", href="public/build/main.css#{ hash }")
     link(rel="icon", type="image/png", href="public/i/favicon.png#{ hash }")
     link(rel="apple-touch-icon", href="public/i/apple-icon.png#{ hash }")
+    link(rel="yandex-tableau-widget", href="manifest.json")
   body
     .page
       .header
@@ -16,11 +17,6 @@ html(lang="ru")
           h2.logo-desc Разработчик интерфейсов
 
       .contacts
-        //-.contact
-        //-  .contact-label
-        //-    span.contact-label-text телефон
-        //-  .contact-data
-        //-    span.contact-data-text 8 (919) 47 90 295
         .contact
           .contact-label
             span.contact-label-text электропочта
@@ -31,11 +27,6 @@ html(lang="ru")
             span.contact-label-text скайп
           .contact-data
             a.contact-data-link(href="skype:xomyaq?chat") xomyaq
-        //- .contact
-        //-   .contact-label
-        //-     span.contact-label-text сайт
-        //-   .contact-data
-        //-     a.contact-data-link(href="http://ilnurkhalilov.ru") ilnurkhalilov.ru
 
       .content
         p.content-text
@@ -44,5 +35,4 @@ html(lang="ru")
       .footer
         .copy Ильнур Халилов, 2013
 
-    //- Insert your script on before body closed
     include includes/metrika

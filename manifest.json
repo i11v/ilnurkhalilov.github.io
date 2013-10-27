@@ -1,0 +1,10 @@
+{
+  "version": "0.1",
+  "api_version": 1,
+
+  "layout": {
+    "logo": "http://ilnurkhalilov.ru/public/i/tableau-logo.png",
+    "color": "#ffffff",
+    "show_title": false
+  }
+}
