@@ -3,7 +3,7 @@ doctype 5
 html(lang="ru")
   head
     meta(charset="UTF-8")
-    meta(name="viewport", content="width=600")
+    meta(name="viewport", content="width=device-width")
     title Ильнур Халилов
     link(rel="stylesheet", type="text/css", href="public/build/main.css#{ hash }")
     link(rel="icon", type="image/png", href="public/i/favicon.png#{ hash }")
@@ -30,7 +30,26 @@ html(lang="ru")
 
       .content
         p.content-text
-          | Ищу работу. Что я умею, и где работал можно почитать в <a href="http://hh.ru/resume/39d52027ff01b19a570039ed1f475343506370" class="content-link">резюме</a>.
+          | Ищу работу. Что я умею и где работал можно почитать в <a href="http://hh.ru/resume/39d52027ff01b19a570039ed1f475343506370" class="content-link">резюме</a>.
+
+      .links
+        ul.links__menu
+          li.links__menu-item
+            a.links__menu-link(href="https://vk.com/ikhalilov") Вконтакте
+          li.links__menu-item
+            a.links__menu-link(href="https://www.facebook.com/ikhalilov") Фейсбук
+          li.links__menu-item
+            a.links__menu-link(href="https://twitter.com/ilnurkhalilov") Твиттер
+          li.links__menu-item
+            a.links__menu-link(href="http://instagram.com/ilnurkhalilov") Инстаграм
+
+        ul.links__menu
+          li.links__menu-item
+            a.links__menu-link(href="https://github.com/xomyaq") Гитхаб
+          li.links__menu-item
+            a.links__menu-link(href="https://bitbucket.org/xomyaq") Битбакет
+          li.links__menu-item
+            a.links__menu-link(href="http://stackoverflow.com/users/833230/xomyaq") Стек Оверфлоу
 
       .footer
         .copy Ильнур Халилов, 2013

@@ -9,3 +9,11 @@ inline-block()
 
 .container
   margin 0 15% 3%
+
+light-link($color)
+  color $color
+  text-decoration none
+  border-bottom 1px solid lighten($color, 50%)
+
+  &:hover
+    border-bottom 0
