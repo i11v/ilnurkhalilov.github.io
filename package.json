@@ -1,10 +1,10 @@
 {
   "name": "ilnurkhalilov.ru",
   "title": "Ilnur Khalilov",
-  "description": "Ilnur Khalilov personal site.",
+  "description": "Ilnur Khalilov personal site",
   "repository": {
     "type": "git",
-    "url": "git@ilnurkhalilov.ru:ilnurkhalilov.git"
+    "url": "git@github.com:ilnurkhalilov/ilnurkhalilov.ru.git"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
