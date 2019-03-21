@@ -21,3 +21,4 @@ Icon
 # Exclude compiled files
 index.html
 public/build/*
+dist
