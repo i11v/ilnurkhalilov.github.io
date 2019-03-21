@@ -18,7 +18,3 @@ Icon
 # Exclude node modules
 /node_modules/
 
-# Exclude compiled files
-index.html
-public/build/*
-dist
