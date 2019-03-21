@@ -6,10 +6,13 @@
     "type": "git",
     "url": "git@github.com:ilnurkhalilov/ilnurkhalilov.ru.git"
   },
+  "scripts": {
+    "build:release": "grunt release"
+  },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-jade": "~0.8.0",
-    "grunt-contrib-stylus": "~0.8.0"
+    "grunt": "^1.0.3",
+    "grunt-contrib-pug": "^2.0.0",
+    "grunt-contrib-stylus": "^1.2.0",
+    "grunt-contrib-watch": "^1.1.0"
   }
 }

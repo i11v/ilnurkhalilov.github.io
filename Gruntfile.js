@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     meta: {
       now: Date.now()
     },
-    jade: {
+    pug: {
       debug: {
         options: {
           debug: true
@@ -13,7 +13,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: "views",
-          src: "*.jade",
+          src: "*.pug",
           dest: ".",
           ext: ".html"
         }]
@@ -28,7 +28,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: "views",
-          src: "*.jade",
+          src: "*.pug",
           dest: ".",
           ext: ".html"
         }]
@@ -57,17 +57,17 @@ module.exports = function (grunt) {
         options: {
           livereload: true
         },
-        files: ["views/**/*.jade", "public/style/**/*.styl", "content.json", "public/js/**/*.js"],
-        tasks: ["jade:debug", "stylus:debug"]
+        files: ["views/**/*.pug", "public/style/**/*.styl", "content.json", "public/js/**/*.js"],
+        tasks: ["pug:debug", "stylus:debug"]
       }
     }
   });
 
-  grunt.loadNpmTasks("grunt-contrib-jade");
+  grunt.loadNpmTasks("grunt-contrib-pug");
   grunt.loadNpmTasks("grunt-contrib-stylus");
   grunt.loadNpmTasks("grunt-contrib-watch");
 
-  grunt.registerTask("default", ["jade:debug", "stylus:debug", "watch:debug"]);
-  grunt.registerTask("dev", ["jade:debug", "stylus:debug"]);
-  grunt.registerTask("release", ["jade:release", "stylus:release"]);
+  grunt.registerTask("default", ["pug:debug", "stylus:debug", "watch:debug"]);
+  grunt.registerTask("dev", ["pug:debug", "stylus:debug"]);
+  grunt.registerTask("release", ["pug:release", "stylus:release"]);
 };
