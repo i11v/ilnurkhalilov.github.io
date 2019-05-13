@@ -4,7 +4,7 @@
   "description": "Ilnur Khalilov personal site",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ilnurkhalilov/ilnurkhalilov.ru.git"
+    "url": "git@github.com:i11v/ilnurkhalilov.ru.git"
   },
   "scripts": {
     "build:release": "grunt release"
